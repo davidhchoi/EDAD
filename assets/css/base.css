@@ -11,10 +11,12 @@ body {
 
 #content {
     width: 900px;
-    border: 0px solid #0C0C27;
+    border-radius: 5px;
+    border: 2px ridge #0D18FF;
+    box-shadow: 10px 10px 5px #888888;
     margin: auto;
     padding: 10px;
-    background-color: rgba(0, 194, 232, .75);
+    background-color: rgba(255, 255, 255, .75);
 }
 
 header {
@@ -48,7 +50,7 @@ a:visited {
 
 a:hover,
 a:active {
-    color: #0C0C27;
+    color: #0C50E8;
 }
 
 #main-nav {
