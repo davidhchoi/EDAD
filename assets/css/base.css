@@ -2,7 +2,7 @@
 https://kuler.adobe.com/create/color-wheel/?base=2&rule=Custom&selected=1&name=My%20Kuler%20Theme&mode=rgb&rgbvalues=0.04650000000000004,0.046502278537670756,0.93,0.04850000000000004,0.5446162765583809,0.97,0.45098039215686275,0.88,0.807357453350578,0,0.88,0.2905105442243803,0.23127866951638681,0.78,0&swatchOrder=0,1,2,3,4 */
 
 body {
-    background-color: white;
+    background-image: url('/assets/img/background.png');
     color: #0C0C27;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
