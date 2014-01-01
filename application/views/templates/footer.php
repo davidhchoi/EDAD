@@ -1,5 +1,6 @@
+        <br class="clear" />
     </div>
-    <div class="clear"></div>
-    <strong>&copy; 2014</strong>
+    <hr />
+    <strong>&copy; 2014 David Choi</strong>
 </body>
 </html>
