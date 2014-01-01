@@ -1,9 +1,10 @@
-/* Colors: 0C0C27 very dark blue; 0C0CED dark blue; 0C8BF7 light blue; 73E0CE lighter blue; 00E04A light green; 3BC700 green; FFFFFF white
-https://kuler.adobe.com/create/color-wheel/?base=2&rule=Custom&selected=1&name=My%20Kuler%20Theme&mode=rgb&rgbvalues=0.04650000000000004,0.046502278537670756,0.93,0.04850000000000004,0.5446162765583809,0.97,0.45098039215686275,0.88,0.807357453350578,0,0.88,0.2905105442243803,0.23127866951638681,0.78,0&swatchOrder=0,1,2,3,4 */
+/* Colors: 0C0C27 very dark blue; 0D18FF dark blue; 0C50E8 blue; 0092FF lighter blue; 00C2E8 light blue; 00FFE3 lightest blue; FFFFFF white
+https://kuler.adobe.com/create/color-wheel/?base=0&rule=Analogous&selected=4&name=My%20Kuler%20Theme&mode=rgb&rgbvalues=0,0.5732306259446887,1,0.050000000000000044,0.09369100017107712,1,0.04550000000000004,0.313158343142137,0.91,0,0.7615341148585685,0.91,0,1,0.8919465783505984&swatchOrder=0,1,2,3,4 */
 
 body {
     background-image: url('/assets/img/background.png');
-    color: #0C0C27;
+    background-repeat: no-repeat;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
@@ -13,6 +14,7 @@ body {
     border: 0px solid #0C0C27;
     margin: auto;
     padding: 10px;
+    background-color: rgba(0, 194, 232, .75);
 }
 
 header {
@@ -24,7 +26,7 @@ aside {
 }
 
 .section {
-    background-color: #73E0CE;
+    background-color: rgba(0, 146, 255, .75);
     float: left;
     padding: 20px;
     width: 630px;
@@ -41,12 +43,12 @@ p {
 
 a:link,
 a:visited {
-    color: #0C0CED;
+    color: black;
 }
 
 a:hover,
 a:active {
-    color: #3BC700;
+    color: #0C0C27;
 }
 
 #main-nav {
@@ -66,7 +68,7 @@ a:active {
 .nav a {
     padding-left: 10px;
     display: block;
-    background-color: #00E04A;
+    background-color: #00FFE3;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.5em;
