@@ -29,3 +29,4 @@
                 <a href="https://github.com/davidhchoi" class="github"></a>
             </div>
         </aside>
+        <h1><?= $title !== "Home" ? $title : "" ?></h2>
