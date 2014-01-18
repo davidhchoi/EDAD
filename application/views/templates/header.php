@@ -18,14 +18,13 @@
                 <nav id="main-nav">
                     <ul class="nav">
                         <li><a href="<?= URL . 'home' ?>">home</a></li>
-                        <li><a href="<?= URL . 'about' ?>">about</a></li>
                         <li><a href="<?= URL . 'contact' ?>">contact</a></li>
                         <li><a href="<?= URL . 'resume' ?>">resume</a></li>
-                        <li><a href="https://github.com/davidhchoi/website">source code</a></li>
                     </ul>
                 </nav>
             </div>
             <div id="media-links">
+                <a href="http://www.linkedin.com/pub/david-choi/8a/101/a60" class="linkedin"></a>
                 <a href="https://github.com/davidhchoi" class="github"></a>
             </div>
         </aside>
