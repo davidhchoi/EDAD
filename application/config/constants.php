@@ -40,6 +40,7 @@ define('URL','/');
 define('IMG',URL.'assets/img/');
 define('CSS',URL.'assets/css/');
 define('JS',URL.'assets/js/');
+define('ASS',URL.'assets/');
 
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */

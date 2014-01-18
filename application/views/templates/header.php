@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="<?= CSS . "base.css" ?>">
+    <link rel='shortcut icon' href="<?= IMG . 'favicon.ico' ?>" type='image/x-icon'/ >
     <title>David Choi - <?= $title ?></title>
 </head>
 <body>
@@ -19,7 +20,7 @@
                     <ul class="nav">
                         <li><a href="<?= URL . 'home' ?>">home</a></li>
                         <li><a href="<?= URL . 'contact' ?>">contact</a></li>
-                        <li><a href="<?= URL . 'resume' ?>">resume</a></li>
+                        <li><a href="<?= ASS . 'resume.pdf' ?>">resume</a></li>
                     </ul>
                 </nav>
             </div>
