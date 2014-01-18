@@ -2,37 +2,54 @@
 https://kuler.adobe.com/create/color-wheel/?base=0&rule=Analogous&selected=4&name=My%20Kuler%20Theme&mode=rgb&rgbvalues=0,0.5732306259446887,1,0.050000000000000044,0.09369100017107712,1,0.04550000000000004,0.313158343142137,0.91,0,0.7615341148585685,0.91,0,1,0.8919465783505984&swatchOrder=0,1,2,3,4 */
 
 body {
-    background-image: url('/assets/img/background.png');
-    background-repeat: no-repeat;
+    background-image: url('/assets/img/background-texture.png');
+    background-repeat: repeat;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
 
 #content {
-    width: 900px;
-    border-radius: 5px;
-    border: 2px ridge #0D18FF;
-    box-shadow: 10px 10px 5px #888888;
+    width: 800px;
     margin: auto;
     padding: 10px;
-    background-color: rgba(255, 255, 255, .75);
+    background-color: rgba(255, 255, 255, .90);
+}
+
+#clouds {
+    position:fixed;
+    bottom:0;
+    height:250px;
+    left:0px;
+    width:100%;
+    z-index:-1;
+    background-image:url('/assets/img/clouds.png');
+    background-repeat: repeat-x;
+    text-indent:-9999px;
 }
 
 header {
+    background-image:url('/assets/img/city.png');
+    height: 150px;
 }
 
 aside {
     float: left;
-    width: 230px;
+    width: 120px;
+}
+
+.section:hover {
+    background-color: rgba(0, 146, 255, .15);
 }
 
 .section {
-    background-color: rgba(0, 146, 255, .75);
+    background-color: rgba(0, 146, 255, .05);
+    border-radius: 5px;
     float: left;
     padding: 20px;
     width: 630px;
 }
+
 
 h1 {
     font-size: 2em;
@@ -50,11 +67,21 @@ a:visited {
 
 a:hover,
 a:active {
-    color: #0C50E8;
+    color: #0092FF;
 }
 
 #main-nav {
     padding-left: 10;
+}
+
+.logo {
+    width: 35%;
+    margin: auto auto;
+    padding: 10px 0px;
+}
+
+#media-links {
+    float: right;
 }
 
 .nav {
@@ -68,12 +95,20 @@ a:active {
 }
 
 .nav a {
+    border-radius: 5px;
+    margin-left: -70px;
     padding-left: 10px;
     display: block;
-    background-color: #00FFE3;
+    background-color: rgba(12, 12, 39, .75);
     text-decoration: none;
     font-weight: bold;
     font-size: 1.5em;
+    line-height: 2em;
+}
+
+.nav a:link,
+.nav a:visited {
+    color: white;
 }
 
 .nav a:hover {
@@ -82,4 +117,17 @@ a:active {
 
 .clear {
     clear: both;
+}
+
+.github {
+    display: block;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    background-image: url('/assets/img/git.png');
+}
+
+.github:hover {
+    margin: 5px;
+    background-image: url('/assets/img/git-hover.png');
 }

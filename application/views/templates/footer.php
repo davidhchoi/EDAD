@@ -1,6 +1,6 @@
         <br class="clear" />
+        <hr />
+        <p>&copy; 2014 David Choi</p>
     </div>
-    <hr />
-    <strong>&copy; 2014 David Choi</strong>
 </body>
 </html>
