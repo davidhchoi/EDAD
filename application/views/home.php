@@ -1,12 +1,23 @@
-<div class="section">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris posuere neque sed nisl molestie aliquet. Suspendisse ullamcorper risus augue, venenatis aliquam ante suscipit ut. Etiam scelerisque orci odio, sed lacinia quam egestas vestibulum. Vivamus orci purus, tempor eget velit at, volutpat rhoncus odio. Nunc a condimentum mauris. Praesent congue blandit est, iaculis placerat mauris eleifend sed. Etiam mattis vehicula risus id lacinia.</p>
 
-    <p>Ut leo felis, molestie ut ultricies ut, tincidunt sed tortor. Donec molestie pharetra suscipit. Etiam orci leo, dictum eget eros sit amet, blandit luctus purus. Sed in tortor non lectus consequat pellentesque. Maecenas eget erat ut libero elementum rutrum. In pulvinar molestie fringilla. Vestibulum malesuada neque vitae augue vehicula, ut aliquet purus accumsan. Etiam dignissim gravida neque sed vulputate. Vivamus cursus augue ac feugiat sodales. Suspendisse hendrerit orci a dignissim egestas. Duis in lacus non libero semper aliquam nec vitae sapien. Praesent scelerisque iaculis bibendum.</p>
+<article>
+    <p>Hi and welcome to my website! As you might have guessed by the header, the website name, and the URL, my name is David Choi and I am a Computer Science student at the University of Waterloo. I hope you enjoy the site!</p>
+</article>
 
-    <p>Aliquam erat volutpat. Praesent in dictum leo, id aliquam nisi. Nam hendrerit odio ut feugiat tristique. Duis tempor lectus eget hendrerit sodales. Vivamus sem nibh, semper vel tristique convallis, mollis ac sem. Aenean ornare vehicula sapien, at euismod dolor egestas ac. Donec pretium dapibus orci at mattis. Quisque at porta leo, nec tempus nisi. Donec laoreet ipsum sit amet nisi euismod consequat. Cras hendrerit malesuada ligula, id auctor libero vestibulum eget. Ut congue pretium turpis, vitae scelerisque nulla porttitor nec. Mauris ac pretium dui. In hendrerit, nisl et elementum feugiat, metus augue sollicitudin ante, eget posuere metus nunc ullamcorper erat.</p>
+<article>
+    <h2>Indochino</h2>
+    <a href="http://www.indochino.com/" class="article-img"><img src="<?= IMG . 'indochino.png' ?>" alt="indochino"></a>
+</article>
 
-    <p>Vestibulum sapien tortor, sollicitudin quis varius sit amet, fringilla et metus. Proin feugiat nunc id tortor viverra egestas. Morbi quis diam quam. Donec posuere interdum euismod. Suspendisse sem nulla, ultrices ut laoreet vel, posuere vel purus. Etiam justo quam, semper sed lorem et, molestie fermentum enim. Phasellus a lobortis lectus. Curabitur lacinia augue sed dolor laoreet vestibulum. Duis at mi quis arcu feugiat luctus.</p>
+<article>
+    <h2>Programming Competitions</h2>
+    <img src="<?= IMG . 'code.png' ?>" alt="code" class="article-img">
+</article> 
 
-    <p>Cras ut venenatis nibh. Curabitur convallis urna dolor, nec sollicitudin mauris hendrerit non. Donec erat mi, ornare eu tempus non, dapibus non mi. Maecenas pharetra gravida ligula, a egestas mauris aliquam sed. Quisque porta facilisis dapibus. Nam vitae euismod nibh. Ut tempus fringilla velit eget elementum. Pellentesque vulputate massa auctor, scelerisque neque quis, molestie augue. Donec gravida ultricies lectus, vitae pulvinar nibh accumsan vitae.</p>
+<article>
+    <h2>Teaching Assistant</h2>
+</article>
 
-</div> 
+<article>
+    <h2>Vancouver Model United Nations</h2>
+    <a href="http://vmun.com/" class="article-img"><img src="<?= IMG . 'vmun.png' ?>" alt="vmun"></a>
+</article>

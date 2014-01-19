@@ -35,19 +35,26 @@ header {
 
 aside {
     float: left;
-    width: 120px;
+    width: 15%;
+    height: 100%;
 }
 
-.section:hover {
+article:hover {
     background-color: rgba(0, 146, 255, .15);
 }
 
-.section {
+.text {
+    float: left;
+    width: 85%;
+}
+
+article {
     background-color: rgba(0, 146, 255, .05);
     border-radius: 5px;
     float: left;
-    padding: 20px;
-    width: 630px;
+    padding: 10px;
+    width: 95%;
+    margin: 10px;
 }
 
 
@@ -143,4 +150,8 @@ a:active {
 .linkedin:hover {
     margin: 5px;
     background-image: url('/assets/img/linkedin-hover.png');
+}
+
+.article-img {
+    position: inline;
 }

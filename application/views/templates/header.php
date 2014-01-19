@@ -30,3 +30,4 @@
             </div>
         </aside>
         <h1><?= $title !== "Home" ? $title : "" ?></h2>
+        <div class="text">
