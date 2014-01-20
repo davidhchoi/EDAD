@@ -11,17 +11,16 @@
     </article>
     <br class="clear" />
     <h4>Description</h4>
-    <p>Back-end engineer focusing on supporting both the manufacturing team and the core 
+    <p>At Indochino, I worked as a back-end engineer focusing on supporting both the manufacturing team and the core 
         customer experience logic. I created and modified systems to manage inventory, 
         quality control, and shipping data on tens of thousands of orders. I also dealt 
         with customer interfaces, the underlying framework of the entire site, database 
-        management, and supporting front-end engineers. </p>
-    <p>Some major projects I played a large role in include a designing and implementing 
+        management, and supported front-end engineers. </p>
+    <p>I played a large role in designing and implementing 
         a statistical algorithmic system to improve customer data (working with several 
-        manufacturing centres), significant framework update and code refactoring project 
-        that removed tens of thousands of lines of code, and designing and implementing 
-        a system to receive and process large amounts of customer feedback in order to 
-        receive meaningful information.</p>
+        manufacturing centres), a significant framework update and code refactoring project 
+        that removed tens of thousands of lines of code, and  
+        a system to receive and normalize large amounts of customer feedback.</p>
 </article>
 
 <article>
@@ -36,9 +35,9 @@
         </ul>
     </article>
     <h4>Description</h4>
-    <p>Since entering High school, I have competed in many different programming 
+    <p>Since entering high school, I have competed in many different programming 
         competitions. Because of them, I developed my problem solving skills, ability 
-        to work under pressure, and experience with implanting theoretical ideas. I 
+        to work under pressure, and experience with implementing theoretical ideas. I 
         also gained significant familiarity with numerous algorithms and data structures 
         through studying for these contests in fields like machine learning, compression, 
         and graph theory, as well as the ability to design efficient algorithms for 
@@ -59,9 +58,9 @@
     <br class="clear" />
     <h4>Description</h4>
     <p>Model United Nations is a political simulation conference in which students act 
-        as delegates to the UN and debate and attempt to solve world issues. I designed, 
-        updated, and managed the Vancouver Model United Nations (VMUN) internet presence 
-        that is still being used today by thousands of people today. To do this, I used 
-        various front and back end technologies like HTML, CSS, WordPress, PHP, and MySQL 
+        as delegates to the UN. I designed, 
+        updated, and managed the Vancouver Model United Nations (VMUN) which thousands of people
+        still rely on today. I used 
+        various front- and back- end technologies like HTML, CSS, WordPress, PHP, and MySQL 
         to create the website, email accounts, registration system, and server.</p>
 </article>

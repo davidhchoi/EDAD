@@ -10,7 +10,9 @@
     <div id="clouds"></div>
     <div id="content">
         <header>
-            <div class="logo"><a href="<?= URL ?>"><img src="<?= IMG . 'logo.png' ?>" alt="logo"></a></div>
+            <a href="<?= URL ?>" class="logo">David Choi</a>
+            <a href="http://www.linkedin.com/pub/david-choi/8a/101/a60" class="linkedin media-links"></a>
+            <a href="https://github.com/davidhchoi" class="github media-links"></a>
             <br class="clear" />
         </header>
         <hr />
@@ -23,11 +25,6 @@
                         <li><a href="<?= ASS . 'resume.pdf' ?>">resume</a></li>
                     </ul>
                 </nav>
-            </div>
-            <div id="media-links">
-                <a href="http://www.linkedin.com/pub/david-choi/8a/101/a60" class="linkedin"></a>
-                <a href="https://github.com/davidhchoi" class="github"></a>
-                <a href="https://github.com/davidhchoi" class="facebook"></a>
             </div>
         </aside>
         <h1><?= $title !== "Home" ? $title : "" ?></h2>

@@ -29,8 +29,8 @@ body {
 }
 
 header {
-    background-image:url('/assets/img/city.png');
-    height: 150px;
+    /*background-image:url('/assets/img/city.png');*/
+    /*height: 150px;*/
 }
 
 aside {
@@ -82,13 +82,13 @@ a:active {
     padding-left: 10;
 }
 
-.logo {
-    width: 35%;
-    margin: auto auto;
-    padding: 10px 0px;
+.logo, .logo:hover {
+    font-size: 4em; 
+    color: #0C0C27; 
+    text-decoration: none;
 }
 
-#media-links {
+.media-links {
     float: right;
 }
 
@@ -107,7 +107,7 @@ a:active {
     margin-left: -100px;
     padding-left: 10px;
     display: block;
-    background-color: rgba(12, 12, 39, .75);
+    background-color: #0C0C27;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.5em;
