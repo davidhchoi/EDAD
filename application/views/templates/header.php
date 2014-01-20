@@ -27,6 +27,7 @@
             <div id="media-links">
                 <a href="http://www.linkedin.com/pub/david-choi/8a/101/a60" class="linkedin"></a>
                 <a href="https://github.com/davidhchoi" class="github"></a>
+                <a href="https://github.com/davidhchoi" class="facebook"></a>
             </div>
         </aside>
         <h1><?= $title !== "Home" ? $title : "" ?></h2>
