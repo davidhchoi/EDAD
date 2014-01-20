@@ -19,7 +19,7 @@ body {
 #clouds {
     position:fixed;
     bottom:0;
-    height:250px;
+    height:400px;
     left:0px;
     width:100%;
     z-index:-1;
@@ -62,9 +62,10 @@ h1 {
     font-size: 2em;
 }
 
-p, article {
+p, article li {
     color: black;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    padding: 4px;
 }
 
 a:link,
@@ -159,8 +160,4 @@ a:active {
 
 ul {
     list-style-type: none;
-}
-
-li {
-    padding: 4px;
 }
