@@ -52,9 +52,9 @@ article {
     background-color: rgba(0, 146, 255, .05);
     border-radius: 5px;
     float: left;
-    padding: 10px;
-    width: 95%;
-    margin: 10px;
+    padding: 2%;
+    width: 90%;
+    margin: 2%;
 }
 
 
@@ -62,7 +62,7 @@ h1 {
     font-size: 2em;
 }
 
-p {
+p, article {
     color: black;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
@@ -103,7 +103,7 @@ a:active {
 
 .nav a {
     border-radius: 5px;
-    margin-left: -70px;
+    margin-left: -100px;
     padding-left: 10px;
     display: block;
     background-color: rgba(12, 12, 39, .75);
@@ -153,5 +153,14 @@ a:active {
 }
 
 .article-img {
-    position: inline;
+    margin: 5px;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 4px;
 }
