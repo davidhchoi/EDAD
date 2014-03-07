@@ -12,7 +12,6 @@
         <header>
             <a href="<?= URL ?>" class="logo">David Choi</a>
             <a href="http://www.linkedin.com/pub/david-choi/8a/101/a60" class="linkedin media-links"></a>
-            <a href="https://github.com/davidhchoi" class="github media-links"></a>
             <br class="clear" />
         </header>
         <hr />
